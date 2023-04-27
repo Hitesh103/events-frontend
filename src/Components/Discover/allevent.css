@@ -1,0 +1,9 @@
+.allevents{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; flex-wrap: wrap;
+    gap: 2rem; padding-left: 2.5%;
+    padding-right: 2.5%;
+}

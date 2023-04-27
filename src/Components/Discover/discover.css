@@ -1,0 +1,106 @@
+.Discover {
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(rgb(0, 1, 37),
+            rgba(0, 0, 0, 0.5)), url(https://cdn.allevents.in/new/homeback/Ahmedabad.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.eventType {
+    display: flex;
+    width: fit-content;
+    gap: 1px;
+    font-size: 1rem;
+}
+
+.eventType>input {
+
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.eventType>select {
+    width: 50%;
+    height: 2rem;
+    outline: none;
+}
+
+input {
+    font-family: Arial, sans-serif, monospace;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+    .eventType {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+
+.event-btn {
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(102, 225, 41);
+    color: black;
+}
+
+.date-btn {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(71, 255, 10);
+    color: black;
+    margin-left: 0.2rem;
+    height: 20px;
+    width: 50px;
+}
+
+.event-btn:hover {
+    transform: scale(1.02);
+}
+
+.eventdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    color: rgb(20, 56, 56);
+}
+
+.eventdate>input {
+    border-radius: 5px;
+}
+
+.eventdate>h1{
+    font-family:Arial;
+}
+
+.center-input::placeholder {
+    text-align: center;
+  }
+
+  .allevents{
+    width: 75vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; flex-wrap: wrap;
+    gap: 2rem; padding-left: 2.5%;
+    padding-right: 2.5%;
+
+  }
