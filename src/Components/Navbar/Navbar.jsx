@@ -35,7 +35,7 @@ export default function Navbar() {
                         </Link> :  <h6 style={{marginTop:"3px"}} className='create-event'>Please Sign in to Create Event</h6>}
                             <button onClick={authToken ?logout :google_login}  className='btn-signin'>
                                 {
-                                    authToken ? "logout" : <h6>Sign In</h6>
+                                    authToken ? <h6>Logout</h6> : <h6>Sign In</h6>
                                 }
                             </button>
                 </nav>
