@@ -9,7 +9,6 @@ export default function Discover() {
     const context = useContext(authContext);
     const {getAllEvents,setEvents_data, category, setCategory,getEventsByCity} = context;
     const [city, setCity] = useState('');
-    const [search, setSearch] = useState(false);
 
     function handleCityChange(e) {
         setCity(e.target.value);
@@ -57,11 +56,6 @@ export default function Discover() {
                     All Events
                 </h1>
                 <br />
-                <div>
-                    {/* <input type='date' name='date' value={date} /> */}
-                    {/* <button className='date-btn' >Explore</button> */}
-                </div>
-
                 <div className="allevents">
                     <AllEvent/>
                 </div>

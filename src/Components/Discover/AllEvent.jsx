@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
-import allEvent from '../../data/allEvents';
+import React, { useContext, useEffect} from 'react'
 import EventCard from '../../Event/EventCard';
 import './allevent.css'
 import authContext from '../../contaxt/authContext';
@@ -16,14 +15,14 @@ export default function AllEvent() {
     };
     fetchEvents();
   }, []);
-  console.log(events_data);
+  //console.log(events_data);
 
 
   return (
     <div className='allevents'>
       {
         events_data?.map(event=>{
-          return (event.eventType ==category || category=="All Events") && <EventCard event={event}/>
+          return (event.eventType == category || category == "All Events") && <EventCard event={event} />
         })
       }
       </div>

@@ -2,7 +2,7 @@
     width: 100vw;
     height: 50vh;
     background: linear-gradient(rgb(0, 1, 37),
-            rgba(0, 0, 0, 0.5)), url(https://cdn.allevents.in/new/homeback/Ahmedabad.jpg) no-repeat;
+    rgba(0, 0, 0, 0.5)), url(https://cdn.allevents.in/new/homeback/Ahmedabad.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     color: white;

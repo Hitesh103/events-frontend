@@ -4,7 +4,7 @@ import axios from "axios";
 
 const AuthState = (props) => {
 
-    const host = "http://localhost:4000";
+    const host = "http://13.50.243.62:4000";
     const [authToken, setAuthToken] = useState(localStorage.getItem('ae-hp-token'));
     const [category, setCategory] = useState("All Events");
     const [events_data, setEvents_data] = useState([])
