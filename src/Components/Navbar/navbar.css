@@ -42,8 +42,6 @@
 
  .create-event{
   color: #21C0E8;
-  
-  width: 300px;
   font-style: italic;
 }
 
@@ -68,6 +66,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: start;
   gap: 1rem;
   color: whitesmoke;
   margin-left: 2%;

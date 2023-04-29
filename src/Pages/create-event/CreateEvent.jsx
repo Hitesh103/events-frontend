@@ -28,10 +28,11 @@ const CreateEvent = () => {
   }
 
   const handleSubmit = async (e) => {
-    console.log("clicked")
+    // console.log("clicked")
     e.preventDefault();
     createEvent(formData);
     alert("Event Created SuccessFully");
+    // window.location.reload();
   }
 
   

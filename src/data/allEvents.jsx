@@ -8,60 +8,60 @@ import img7 from '../img/img7.webp';
 
 const allEvent = [
     {
-        img: img1,
+        eventPoster: img1,
         startDate: "April 19",
         endDate: "April 20",
-        eventname: "Run With Balloon",
-        place: "RiverFront Ahmedabad",
-        Price: "150"
+        name: "Run With Balloon",
+        location: "RiverFront Ahmedabad",
+        price: "150"
     },
     {
-        img: img2,
+        eventPoster: img2,
         startDate: "Sep 10",
         endDate: "Sep 10",
-        eventname: "Bambai-17 Ke Chuhe !",
-        place: "Prayogshala",
-        Price: "350"
+        name: "Bambai-17 Ke Chuhe !",
+        location: "Prayogshala",
+        price: "350"
     },
     {
-        img: img3,
+        eventPoster: img3,
         startDate: "May 10",
         endDate: "May 10",
-        eventname: "Found You",
-        place: "Palanpur",
-        Price: "450"
+        name: "Found You",
+        location: "Palanpur",
+        price: "450"
     },
     {
-        img: img5,
+        eventPoster: img5,
         startDate: "June 15",
         endDate: "June 25",
-        eventname: "National Student's Space Challange",
-        place: "IIT Kharagpur",
-        Price: "450"
+        name: "National Student's Space Challange",
+        location: "IIT Kharagpur",
+        price: "450"
     },
     {
-        img: img4,
+        eventPoster: img4,
         startDate: "April 27",
         endDate: "April 29",
-        eventname: "Lakshya Fest 2023",
-        place: "LDCE , Ahmedabad",
-        Price: "550"
+        name: "Lakshya Fest 2023",
+        location: "LDCE , Ahmedabad",
+        price: "550"
     },
     {
-        img: img6,
+        eventPoster: img6,
         startDate: "June 10",
         endDate: "June 20",
-        eventname: "Rendezoinous'23",
-        place: "IIT Delhi",
-        Price: "800"
+        name: "Rendezoinous'23",
+        location: "IIT Delhi",
+        price: "800"
     },
     {
-        img: img7,
+        eventPoster: img7,
         startDate: "June 10",
         endDate: "June 20",
-        eventname: "E-Summite'23",
-        place: "IIT Bombay",
-        Price: "500"
+        name: "E-Summite'23",
+        location: "IIT Bombay",
+        price: "500"
     }
 ]
 

@@ -10,8 +10,8 @@ export default function EventCard({ event }) {
     const endDate = new Date(event.enddate);
     return (
         <div className='card' style={{ width: "18rem"}}>
-            <img src={event.eventPoster} className='card-img-top' alt='Event' style={{ width: "18rem", height: "24vh" }} />
             <div className="card-body">
+            <img src={event.eventPoster} className='card-img-top' alt='Event' style={{ width: "15.5rem", height: "24vh"}} />
                 <h6>{event.name}</h6>
                 <h6>{startDate.toDateString()} - {endDate.toDateString()}</h6>
                 <h6>{event.location}</h6>

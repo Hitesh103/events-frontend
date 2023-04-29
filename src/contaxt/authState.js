@@ -3,8 +3,8 @@ import authContext from "./authContext";
 import axios from "axios";
 
 const AuthState = (props) => {
-
-    const host = "http://13.50.243.62:4000";
+ 
+    const host = "https://alleventbackend-p2rx.onrender.com";
     const [authToken, setAuthToken] = useState(localStorage.getItem('ae-hp-token'));
     const [category, setCategory] = useState("All Events");
     const [events_data, setEvents_data] = useState([])

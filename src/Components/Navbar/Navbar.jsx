@@ -31,11 +31,11 @@ export default function Navbar() {
                         <img src='https://allevents.in/img/ae-logo-website.png' alt='logo' width='160px' className='img' />
                     </Link>
                     
-                       { authToken ? <Link to="/eventcreate" ><h4 style={{marginTop:"3px"}} className='create-event'>Create Event</h4>
+                       { authToken ? <Link to="/eventcreate" ><h6 style={{marginTop:"3px"}} className='create-event'>Create Event</h6>
                         </Link> :  <h6 style={{marginTop:"3px"}} className='create-event'>Please Sign in to Create Event</h6>}
                             <button onClick={authToken ?logout :google_login}  className='btn-signin'>
                                 {
-                                    authToken ? "logout" : <h6>Sign In</h6>
+                                    authToken ? <h6>Logout</h6> : <h6 className='signin'>Sign In</h6>
                                 }
                             </button>
                 </nav>
