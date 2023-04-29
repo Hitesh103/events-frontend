@@ -21,7 +21,7 @@ const AuthState = (props) => {
     }
 
     const createEvent = async (formData) => {
-        console.log(formData)
+        //console.log(formData)
         const headers = {
             'authorization': authToken,
             'data': formData,

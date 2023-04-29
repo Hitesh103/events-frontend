@@ -4,8 +4,6 @@ import './eventCard.css';
 
 export default function EventCard({ event }) {
 
-
-
     const startDate = new Date(event.startdate);
     const endDate = new Date(event.enddate);
     return (

@@ -12,7 +12,7 @@ export default function Discover() {
 
     function handleCityChange(e) {
         setCity(e.target.value);
-        console.log(city);
+        //console.log(city);
     }
 
     function changeCategory(e) {

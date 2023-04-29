@@ -9,59 +9,66 @@ import img7 from '../img/img7.webp';
 const allEvent = [
     {
         eventPoster: img1,
-        startDate: "April 19",
+        startdate: "April 19",
         endDate: "April 20",
         name: "Run With Balloon",
-        location: "RiverFront Ahmedabad",
-        price: "150"
+        location: "Ahmedabad",
+        price: "150",
+        eventType: "Performances"
     },
     {
         eventPoster: img2,
-        startDate: "Sep 10",
+        startdate: "Sep 10",
         endDate: "Sep 10",
         name: "Bambai-17 Ke Chuhe !",
-        location: "Prayogshala",
-        price: "350"
+        location: "Ahmedabad",
+        price: "350",
+        eventType: "Performances"
     },
     {
         eventPoster: img3,
-        startDate: "May 10",
+        startdate: "May 10",
         endDate: "May 10",
         name: "Found You",
-        location: "Palanpur",
-        price: "450"
+        location: "Ahmedabad",
+        price: "450",
+        eventType: "Performances"
     },
     {
         eventPoster: img5,
-        startDate: "June 15",
+        startdate: "June 15",
         endDate: "June 25",
         name: "National Student's Space Challange",
-        location: "IIT Kharagpur",
-        price: "450"
+        location: "Ahmedabad",
+        price: "450",
+        eventType: "Performances"
     },
     {
         eventPoster: img4,
-        startDate: "April 27",
+        startdate: "April 27",
         endDate: "April 29",
         name: "Lakshya Fest 2023",
-        location: "LDCE , Ahmedabad",
-        price: "550"
+        location: "Ahmedabad",
+        price: "550",
+        eventType: "Festivals"
     },
     {
         eventPoster: img6,
-        startDate: "June 10",
+        startdate: "June 10",
         endDate: "June 20",
         name: "Rendezoinous'23",
-        location: "IIT Delhi",
-        price: "800"
+        location: "Ahmedabad",
+        price: "800",
+        eventType: "Festivals"
     },
     {
         eventPoster: img7,
-        startDate: "June 10",
+        startdate: "June 10",
         endDate: "June 20",
         name: "E-Summite'23",
-        location: "IIT Bombay",
-        price: "500"
+        location: "Ahmedabad",
+        price: "500",
+        eventType: "Festivals"
     }
 ]
 
