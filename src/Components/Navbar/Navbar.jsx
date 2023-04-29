@@ -7,7 +7,8 @@ import authContext from '../../contaxt/authContext';
 export default function Navbar() {
     const context = useContext(authContext);
     const {login, authToken} = context;
-    //console.log(authToken);
+    console.log(authToken);
+
 
     const google_login = useGoogleLogin({ onSuccess: handleGoogleLoginSuccess })
     function handleGoogleLoginSuccess(tokenResponse) {
