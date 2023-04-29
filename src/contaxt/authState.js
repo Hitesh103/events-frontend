@@ -4,7 +4,7 @@ import axios from "axios";
 
 const AuthState = (props) => {
  
-    const host = "https://blue-cooperative-frog.cyclic.app/";
+    const host = "https://alleventbackend-p2rx.onrender.com";
     const [authToken, setAuthToken] = useState(localStorage.getItem('ae-hp-token'));
     const [category, setCategory] = useState("All Events");
     const [events_data, setEvents_data] = useState([])
