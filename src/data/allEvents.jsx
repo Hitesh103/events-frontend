@@ -10,63 +10,63 @@ const allEvent = [
     {
         eventPoster: img1,
         startdate: "April 19",
-        endDate: "April 20",
+        enddate: "April 20",
         name: "Run With Balloon",
-        location: "Ahmedabad",
+        location: "ahmedabad",
         price: "150",
         eventType: "Performances"
     },
     {
         eventPoster: img2,
         startdate: "Sep 10",
-        endDate: "Sep 10",
+        enddate: "Sep 10",
         name: "Bambai-17 Ke Chuhe !",
-        location: "Ahmedabad",
+        location: "surat",
         price: "350",
         eventType: "Performances"
     },
     {
         eventPoster: img3,
         startdate: "May 10",
-        endDate: "May 10",
+        enddate: "May 10",
         name: "Found You",
-        location: "Ahmedabad",
+        location: "dhanera",
         price: "450",
         eventType: "Performances"
     },
     {
         eventPoster: img5,
         startdate: "June 15",
-        endDate: "June 25",
+        enddate: "June 25",
         name: "National Student's Space Challange",
-        location: "Ahmedabad",
+        location: "deesa",
         price: "450",
         eventType: "Performances"
     },
     {
         eventPoster: img4,
         startdate: "April 27",
-        endDate: "April 29",
+        enddate: "April 29",
         name: "Lakshya Fest 2023",
-        location: "Ahmedabad",
+        location: "Virtual",
         price: "550",
         eventType: "Festivals"
     },
     {
         eventPoster: img6,
         startdate: "June 10",
-        endDate: "June 20",
+        enddate: "June 20",
         name: "Rendezoinous'23",
-        location: "Ahmedabad",
+        location: "bangalore",
         price: "800",
         eventType: "Festivals"
     },
     {
         eventPoster: img7,
         startdate: "June 10",
-        endDate: "June 20",
+        enddate: "June 20",
         name: "E-Summite'23",
-        location: "Ahmedabad",
+        location: "vadodara",
         price: "500",
         eventType: "Festivals"
     }

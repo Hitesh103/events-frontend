@@ -15,7 +15,7 @@ export default function EventCard({ event }) {
                 <h6>{event.location}</h6>
                 <span>
                     {
-                        event.price>0?`Price -${event.price}₹` : "FREE"
+                        event.price>0?`Price : ${event.price}₹` : "FREE"
                     }
                 </span>
                 <h6>

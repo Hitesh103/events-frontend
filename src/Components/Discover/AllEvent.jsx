@@ -2,12 +2,11 @@ import React, { useContext, useEffect} from 'react'
 import EventCard from '../../Event/EventCard';
 import './allevent.css'
 import authContext from '../../contaxt/authContext';
-import Events from "../../data/allEvents.jsx"
 
 export default function AllEvent() {
 
   const context = useContext(authContext);
-  const {getAllEvents,category, events_data, setEvents_data} = context;
+  const {getAllEvents,category, events_data, setEvents_data, curr_city} = context;
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -25,13 +24,7 @@ export default function AllEvent() {
 
       {
         events_data?.map(event=>{
-          return (event.eventType == category || category == "All Events") && <EventCard event={event} />
-        })
-      }
-      {
-        Events.map(event=>{
-          console.log(event.eventType, event.eventType==category)
-          return ( event.eventType == category || category == "All Events") && <EventCard event={event}/>;
+          return ((event.eventType == category || category == "All Events")) && <EventCard event={event} />
         })
       }
       </div>

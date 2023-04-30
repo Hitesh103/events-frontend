@@ -8,8 +8,9 @@ const AuthState = (props) => {
     const [authToken, setAuthToken] = useState(localStorage.getItem('ae-hp-token'));
     const [category, setCategory] = useState("All Events");
     const [events_data, setEvents_data] = useState([])
+    const [curr_city, setCurr_city] = useState("");
 
-
+    
     const login = async (token) => {
         const headers = {
             'googleAccessToken': token,
@@ -46,7 +47,7 @@ const AuthState = (props) => {
     }
 
     return (
-        <authContext.Provider value={{ authToken, login, createEvent, getAllEvents,category, setCategory ,events_data, setEvents_data, getEventsByCity}}>
+        <authContext.Provider value={{ authToken, login, createEvent, getAllEvents,category, setCategory ,events_data, setEvents_data, getEventsByCity,curr_city, setCurr_city}}>
             {props.children}
         </authContext.Provider>
     )

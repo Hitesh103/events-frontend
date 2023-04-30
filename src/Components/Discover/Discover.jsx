@@ -7,7 +7,7 @@ import authContext from '../../contaxt/authContext';
 export default function Discover() {
 
     const context = useContext(authContext);
-    const {getAllEvents,setEvents_data, category, setCategory,getEventsByCity} = context;
+    const {getAllEvents,setEvents_data, category, setCategory,getEventsByCity,setCurr_city} = context;
     const [city, setCity] = useState('');
 
     function handleCityChange(e) {
@@ -27,6 +27,7 @@ export default function Discover() {
             setEvents_data(data);
         }else{
             const data = await getEventsByCity(city);
+            setCurr_city(city);
             setEvents_data(data);
         }
     }
